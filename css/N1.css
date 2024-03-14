@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0E9DA;
+    margin-top: -23vh;
+    height: 100%;
+    border: 0.1px solid #F0E9DA;
+}
+.navigationbar {
+    display: flex;
+    margin: 50px 50px;
+    margin-bottom: 0px;
+    height: 100px;
+    color: black;
+}
+
+#TNO-M-Name:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 231px;
+}   
+.navp1 #tnologo{
+    position: relative;
+    top: 0px;
+}
+.navp1 #tnologo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navp2 {
+    border: 1px solid black;
+    width: 430px;
+}
+.navp2 a:hover {
+    transform: scale(1.1);
+}
+
+.navp3 {
+    border: 1px solid black;
+    width: 774px;
+}
+
+.navp3 ul {
+    display: flex;
+    padding: 43px 49px;
+    justify-content: space-between;
+}
+
+.navp3 ul li {
+    list-style: none;
+}
+
+.navp3 ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+#navbar .navp1 #TNO-M-Name a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-shadow: 1px 1px 3px rgb(237, 20, 20);
+}
+
+.navp2 #TNO-F-Name a {
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    top: 33px;
+    left: 45px;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(237, 20, 20);
+}
+
+/* second section */
+.slide {
+    display: flex;
+    margin: 0px 50px;
+}
+body .symbol{
+    width: 40px;
+    height: 170px;
+    position: sticky;
+     top: 18rem;
+    /* margin-top: -20px; */
+    left: 100%;
+    /* position:-webkit-sticky; */
+}
+.symbol img{
+    padding: 10px 0px;
+}
+.symbol li{
+    list-style: none;
+    position: relative;
+    left: -25px;
+}
+#highlight {
+    border: 1px solid black;
+    width: 230px;
+    height: 60px;
+    background-color: rgb(207, 17, 17);
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
+
+#highlight p {
+    color: white;
+    font-size: larger;
+}
+
+#slider {
+    border: 1px solid black;
+    height: 60px;
+    background-color: black;
+    width: 1205px;
+    
+}
+#slider span{
+    color: white;
+}
+#slider a{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 63px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#slider button{
+    position: absolute;
+    width: 25px;
+    margin: auto;
+    top: 15px;
+    left: -10px 
+}
+#root .header{
+    background-color:  rgb(207, 17, 17);
+    margin:0px 50px;
+    height: 40vh;
+    padding: 0px 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.header .btn1{
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    width: 10vw;
+    margin: 25px 0px;
+    box-shadow: 3px 3px 10px 2px black;
+}
+.header .btn1:hover{
+    background-color: white;
+    transition: all 0.4s ease;
+}
+.header .btn1:hover a{
+    color: black;
+    transition: all 0.4s ease;
+}
+.header #tname{
+    height: 150px;
+}
+.header .para{
+    color: white;
+}
+.header .btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.header .num{
+    color: white;
+}
+.header h2{
+    font-size: 40px;
+    color: white;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.main{
+    background-color: white;
+    height: 79rem;
+    display: flex;
+    justify-content: center;
+}
+.main .mainnews{
+    border: 1px solid red;
+    width: 47.2vw;
+    height: 75rem;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-top: 30px;
+}
+.mainnews img{
+    width: 100%;
+    margin: 20px 0px;
+}
+.multinews{
+    margin: 30px;
+}
+.multinews .heading{
+    background-color: rgb(23, 104, 104);
+    color: white;
+    display: flex;
+    width: 20vw;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 4px 4px 10px 2px black;
+}
+.multinews .box1{
+    border: 1px solid red;
+    width: 20vw;
+    height: 23rem;
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px 2px red;
+}
+.multinews button{
+    background-color: rgb(207, 17, 17);
+    box-shadow: 3px 3px 10px 2px black;
+    width: 7vw;
+    height: 35px;
+}
+.multinews button a{
+    text-decoration: none;
+    color: white;
+}
+.multinews button:hover{
+    background-color: white;
+}
+.multinews button:hover a{
+    color: black;
+}
+
+footer {
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height: 65vh;
+}
+
+.first {
+    /* border: 1px solid white; */
+    margin: 0px 80px;
+    height: 18vh;
+}
+
+.first hr {
+    position: relative;
+    top: 17px;
+    color: white;
+}
+
+.first p {
+    font-size: 22px;
+    line-height: normal;
+    position: relative;
+    top: 80px;
+    color: white;
+}
+
+.first label {
+    color: white;
+    position: relative;
+    top: -26px;
+    left: 27.5rem;
+}
+
+.first input {
+    border: 1px solid white;
+    background: transparent;
+    height: 66.5px;
+    width: 336px;
+    position: relative;
+    left: 400px;
+    top: 21px;
+    color: white;
+    font-size: medium;
+}
+.first input:hover {
+    box-shadow: inset 1px 1px white, inset -1px -1px white;
+}
+
+.first .fbtn {
+    background: transparent;
+    border: 1px solid white;
+    position: relative;
+    height: 67px;
+    width: 100px;
+    top: 21px;
+    left: 53.3vh;
+    transition: all 0.7s ease;
+}
+.first .fbtn a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.first .fbtn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.first .fbtn:hover a{
+    color: black;
+    transition: all 0.7s ease;
+}
+
+.second {
+    /* color: white; */
+    /* border: 1px solid white; */
+    margin: 0px 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20vw;
+    height: 41.5vh;
+}
+.second .sitename{
+    /* border: 1px solid rgb(197, 217, 14); */
+    color: white;
+    height: 310px;
+}
+.second .sitename .heading{
+    color: white;
+    font-size: 28px;
+    position: relative;
+    left: 6vw;
+    text-decoration: none;
+}
+.sitename hr{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    color: white;
+}
+.sitename #tnologo img{
+    position: relative;
+    top: 75px;
+}
+.sitename .para1{
+    padding-left: 6vw;
+    color: white;
+}
+.sitename .para{
+    /* position: relative;
+    left: 6vw;
+    top: 7px;
+    text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.sitename .heading2{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    top: -2px;
+}
+.second .tags{
+    /* border: 1px solid rgb(197, 217, 14); */
+    display: grid;
+    grid-template-columns: repeat(3,0.3fr);
+    height: 15vh;
+    margin-top: 40px;
+}
+.second .tags a{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-align: start;
+}
+footer #para{
+    color: white;
+    position: relative;
+    left: 65vw;
+    top: -10vh;
+    width: 500px;
+}
+footer #para a{
+    color: white;
+}

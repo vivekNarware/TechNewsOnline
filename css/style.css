@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+#root {
+    background-color: #F0E9DA;
+    margin-top: 0;
+    height: 100%;
+    border: 0.1px solid #F0E9DA;
+}
+.navigationbar {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 30px 50px;
+    margin-bottom: 0px;
+    height: 100px;
+    color: black;
+}
+#TNO-M-Name:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.navp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 231px;
+}   
+.navp1 #tnologo{
+    position: relative;
+    top: -10px;
+}
+.navp1 #tnologo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.navp2 {
+    border: 1px solid black;
+    width: 430px;
+}
+.navp2 a:hover {
+    transform: scale(1.1);
+}
+.navp3 {
+    border: 1px solid black;
+    width: 757px;
+}
+.navp3 ul {
+    display: flex;
+    padding: 43px 49px;
+    justify-content: space-between;
+}
+
+.navp3 ul li {
+    list-style: none;
+}
+.navp3 ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+ul li a:hover {
+    color: red;
+}
+
+#navbar .navp1 #TNO-M-Name a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    text-shadow: 1px 1px 3px rgb(237, 20, 20);
+}
+
+.navp2 #TNO-F-Name a {
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    top: 33px;
+    left: 45px;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(237, 20, 20);
+}
+
+/* second section */
+.slide {
+    display: flex;
+    margin: 0px 50px;
+}
+.symbol{
+    width: 40px;
+    height: 116px;
+    position: sticky;
+    top: 17rem;
+    left: 100%;
+}
+.symbol img{
+    padding: 10px 0px;
+}
+.symbol li{
+    list-style: none;
+    position: relative;
+    left: -25px;
+}
+#highlight {
+    border: 1px solid black;
+    width: 230px;
+    height: 60px;
+    background-color: rgb(216, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+#highlight p {
+    color: white;
+    font-size: larger;
+}
+
+#slider {
+    border: 1px solid black;
+    height: 60px;
+    background-color: black;
+    width: 1192px;
+    
+}
+#slider span{
+    color: white;
+}
+#slider a{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 63px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#slider button{
+    position: absolute;
+    width: 25px;
+    margin: auto;
+    top: 15px;
+    left: -10px 
+}
+/* third section */
+#mainpage {
+    display: grid;
+    grid-template-columns: repeat(2, 0.9fr);
+    height: 905px;
+    margin-top: -16vh;
+}
+
+.main1 {
+    border: 1px solid black;
+    height: 905px;
+    width: 515px;
+    margin-left: 50px;
+    background-color: rgb(216, 28, 28);
+    background-image: url('https://static.wixstatic.com/media/ea26fd_61678f537586410f91eeded58380ec1b~mv2.png/v1/fill/w_529,h_480,al_tl,lg_1,q_85,enc_auto/ea26fd_61678f537586410f91eeded58380ec1b~mv2.png');
+}
+
+.main1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.main1 h1,
+p {
+    color: white;
+}
+
+.main1-item {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    position: relative;
+    left: 100px;
+    top: 165px;
+}
+
+.main1-item .heading {
+    font-size: 52px;
+}
+
+.main1-item .item-1 {
+    font-size: 24px;
+    position: relative;
+    top: 12px;
+    line-height: 20px;
+}
+
+.main1-item .item-2 {
+    position: relative;
+    top: 165px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+}
+
+.main1-item #mail {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main1-item label {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    top: 158px;
+}
+
+.main1-item input {
+    background: transparent;
+    border: 1px solid white;
+    position: relative;
+    top: 200px;
+    left: -42px;
+    height: 56px;
+    width: 201px;
+    font-size: 20px;
+}
+
+.main1-item input:hover {
+    box-shadow: inset 1px 1px white, inset -1px -1px white;
+}
+
+.main1-item input:focus {
+    background-color: brown;
+}
+
+.main1-item button {
+    position: relative;
+    top: 144px;
+    height: 56px;
+    width: 90px;
+    left: 200px;
+    background-color: rgb(216, 28, 28);
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    transition: all 0.7s ease;
+}
+
+.main1-item button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.main2 {
+    display: grid;
+    grid-gap: none;
+    grid-template-rows: repeat(2, 1fr);
+    margin-right: 51px;
+    height: 0px;
+    width: 903px;
+    /* filter: brightness(0.5); */
+}
+
+.main2::before {
+    content: "";
+    position: absolute;
+    height: 122vh;
+    width: 59.5%;
+    background-color: rgba(0,0,0,0.5);
+    /* This adds a black layer with 50% opacity */
+}
+
+#main2-item1 {
+    border: 1px solid black;
+    width: 903px;
+    height: 441px;
+    background-image: url('https://static.wixstatic.com/media/84770f_aa3e526ff51b4f25956d57ea0a3a772e~mv2_d_4000_2020_s_2.jpg/v1/fill/w_953,h_538,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_aa3e526ff51b4f25956d57ea0a3a772e~mv2_d_4000_2020_s_2.jpg');
+}
+
+.main2 .multibtn1 {
+    position: relative;
+    top: 30px;
+    left: 45px;
+    height: 35px;
+    width: 135px;
+    background-color: rgb(216, 28, 28);
+    border-radius: 5px;
+    transition: all 0.7s ease;
+}
+.main2 .multibtn1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.main2 .multibtn1:hover {
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.main2 .num {
+    position: relative;
+    top: 3px;
+    left: 226px;
+    font-size: 18px;
+    width: 70px;
+}
+
+.main2 .subheading {
+    color: white;
+    font-size: 28px;
+    position: relative;
+    top: 55px;
+    left: 45px;
+    line-height: 25px;
+    width: 40vw;
+}
+.main2 .subheading1{
+    color: white;
+    font-size: 28px;
+    position: relative;
+    top: 55px;
+    left: 45px;
+    line-height: 25px;
+    width: 25vw;
+}
+.main2 .para2{
+    font-size: 18px;
+    line-height: 1.1em;
+    position: relative;
+    top: 85px;
+    left: 45px;
+    color: white;
+    width: 25vw;
+}
+.main2 .para{
+    font-size: 18px;
+    line-height: 1.1em;
+    position: relative;
+    top: 85px;
+    left: 45px;
+    width:40vw;
+}
+
+.main2 .multibtn2 {
+    background: transparent;
+    border: 1px solid white;
+    position: relative;
+    top: 110px;
+    height: 40px;
+    left: 45px;
+    width: 135px;
+    transition: all 0.7s ease;
+    box-shadow: 2px 2px 5px 2px white;
+}
+.main2 .multibtn2 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.main2 .multibtn2:hover {
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px rgb(150, 84, 84);
+}
+.multibtn2:hover a{
+    color: black;
+    transition: all 0.7s ease;
+}
+#main2-item2 {
+    display: grid;
+    grid-gap: none;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#main2-item2-A {
+    border: 1px solid black;
+    width: 453px;
+    height: 464px;
+    background-image: url('https://images.indianexpress.com/2024/03/apple-macbook-air-m3_18fba5.jpg?w=640');
+}
+
+#main2-item2-B {
+    border: 1px solid black;
+    width: 450px;
+    height: 464px;
+    background-image: url('https://static.wixstatic.com/media/84770f_e46c5dc9395c46acbe5569e523a04203~mv2_d_3948_2986_s_4_2.jpg/v1/fill/w_476,h_576,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_e46c5dc9395c46acbe5569e523a04203~mv2_d_3948_2986_s_4_2.jpg');
+}
+
+#linkpage hr {
+    position: relative;
+    top: 91px;
+    margin: 0px 50px;
+    border: none;
+    /* Remove the default border */
+    height: 1px;
+    /* Specify a height */
+    background-color: red;
+    /* Add a background color */
+}
+
+#linkpage {
+    /* border: 1px solid black; */
+    height: 158rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#linkpage .newsbtn button {
+    color: rgb(216, 28, 28);
+    font-size: 30px;
+    padding: 20px 55px;
+    border: 1px solid rgb(216, 28, 28);
+    background-color: white;
+}
+
+#linkpage .newsbtn {
+    height: 200px;
+    width: 25%;
+    position: relative;
+    top: 90px;
+    left: 625px;
+}
+
+#linkpage .multinews {
+    position: relative;
+    height: 159rem;
+    width: 39%;
+    margin: 0px auto;
+}
+
+.multinews #news1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid rgb(216, 28, 28);
+    margin-top: 55px;
+    height: 325px;
+    width: 39rem;
+    border-radius: 0px 40px 0px 0px;
+    box-shadow: 5px 5px 15px 2px red;
+}
+
+#news1 img {
+    height: 100%;
+    width: 265px;
+}
+.multinews .content{
+    /* position: relative;
+    left: -5px;
+    display: grid;
+    grid-template-rows: repeat(1); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.multinews .content .num {
+    color: black;
+    /* position: relative;
+    top: 35px;
+    left: 10px; */
+}
+
+.multinews .content .subheading {
+    /* position: relative;
+    top: 37px;
+    left: 8px; */
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.multinews .content .para {
+    /* position: relative;
+    top: 35px;
+    left: 8px; */
+    color: black;
+    font-size: 17px;
+    letter-spacing: normal;
+    margin: 0px;
+}
+
+.multinews .content .multibtn2 {
+    /* position: relative;
+    left: 9px; */
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    background-color: rgb(216, 28, 28);
+    transition: all 0.7s ease;
+}
+.content .multibtn2 a{
+    text-decoration: none;
+    color: white;
+}
+.multinews .content .multibtn2:hover {
+    border: 1px solid rgb(216, 28, 28);
+    background-color: white;
+}
+.content .multibtn2:hover a{
+    color: rgb(216, 28, 28);
+    transition: all 0.7s ease;
+}
+
+#last2 {
+    display: grid;
+    grid-template-rows: repeat(2, 0.4fr);
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    position: relative;
+    height: 60vh;
+    background-color: #F0E9DA;
+    border: 2px solid rgb(78, 78, 225);
+    border-radius: 0px 40px 0px 40px;
+    box-shadow: inset 5px 10px 10px black;
+}
+
+#last2 .box1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    top: 5vh;
+}
+
+#last2 #gadgets {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+}
+.box1 .logo{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    left: 30px;
+    top: 10px;
+}
+#last2 #appreview {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+}
+#gadgets .sign{
+    position: relative;
+    left: 13.5rem;
+}
+#last2 #innovation {
+    border: 1px solid black;
+    width: 450px;
+    height: 100px;
+}
+.box1 .sign{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 240px;
+    top: -28px;
+}
+#last2 .box1 .name a {
+    position: relative;
+    top: 5px;
+    left: 93px;
+    font-size: 28px;
+    color: rgb(216, 28, 28);
+    font-weight: bold;
+}
+#appreview .name{
+    position: relative;
+    left: 10px;
+}
+#appreview .sign{
+    position: relative;
+    left: 17rem;
+}
+#last2 .box2 {
+    position: relative;
+    background-color: rgb(216, 28, 28);
+    top: 10px;
+    width: 100%;
+    height: 23vh;
+    border-radius: 0px 30px 0px 30px;
+    box-shadow: 5px 5px 10px 5px black;
+}
+
+#last2 .box2 h1 {
+    color: white;
+    font-size: 28px;
+    position: relative;
+    top: 30px;
+    left: 35px;
+}
+
+#last2 .box2 .para {
+    position: relative;
+    top: 50px;
+    left: 35px;
+    font-size: 18px;
+    line-height: 0.5em;
+}
+
+#last2 .box2 .lines {
+    display: flex;
+}
+
+#last2 .box2 .line1 {
+    position: relative;
+    top: -92px;
+    left: 68vh;
+}
+
+#last2 .box2 .line2 {
+    position: relative;
+    top: -92px;
+    left: 74vh;
+}
+
+#last2 .box2 .line3 {
+    position: relative;
+    top: -92px;
+    left: 80vh;
+}
+
+#last2 .box2 .line4 {
+    position: relative;
+    top: -92px;
+    left: 86vh;
+}
+
+#last2 .box2 .line5 {
+    position: relative;
+    top: -92px;
+    left: 92vh;
+}
+
+#last2 .box2 .verticalline {
+    height: 23vh;
+    border-left: 1px solid white;
+}
+
+.box2 .lines img {
+    position: relative;
+    top: -13vh;
+    left: 21px;
+}
+
+footer {
+    background-color: black;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    height: 65vh;
+}
+
+.first {
+    /* border: 1px solid white; */
+    margin: 0px 80px;
+    height: 18vh;
+}
+
+.first hr {
+    position: relative;
+    top: 19px;
+}
+
+.first p {
+    font-size: 22px;
+    line-height: normal;
+    position: relative;
+    top: 70px;
+}
+
+.first label {
+    color: white;
+    position: relative;
+    top: -26px;
+    left: 27.5rem;
+}
+
+.first input {
+    border: 1px solid white;
+    background: transparent;
+    height: 66.5px;
+    width: 336px;
+    position: relative;
+    left: 400px;
+    top: 21px;
+    color: white;
+    font-size: medium;
+}
+
+.first input:hover {
+    box-shadow: inset 1px 1px white, inset -1px -1px white;
+}
+
+.first .fbtn {
+    background: transparent;
+    border: 1px solid white;
+    position: relative;
+    height: 67px;
+    width: 100px;
+    top: 20px;
+    left: 53.3vh;
+    transition: all 0.7s ease;
+}
+.first .fbtn a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.first .fbtn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+.first .fbtn:hover a{
+    color: black;
+    transition: all 0.7s ease;
+}
+
+.second {
+    /* color: white; */
+    /* border: 1px solid white; */
+    margin: 0px 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20vw;
+    height: 41.5vh;
+}
+.second .sitename{
+    /* border: 1px solid rgb(197, 217, 14); */
+    color: white;
+    height: 310px;
+}
+.second .sitename .heading{
+    color: white;
+    font-size: 28px;
+    position: relative;
+    left: 6vw;
+    text-decoration: none;
+}
+.sitename hr{
+    position: relative;
+    top: 10px;
+    height: 2px;
+    color: white;
+}
+.sitename #tnologo img{
+    position: relative;
+    top: 75px;
+}
+.sitename .para1{
+    padding-left: 6vw;
+}
+.sitename .para{
+    /* position: relative;
+    left: 6vw;
+    top: 7px;
+    text-decoration: none; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+.sitename .heading2{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    top: -2px;
+}
+.second .tags{
+    /* border: 1px solid rgb(197, 217, 14); */
+    display: grid;
+    grid-template-columns: repeat(3,0.3fr);
+    height: 15vh;
+    margin-top: 40px;
+}
+.second .tags a{
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-align: start;
+}
+footer #para{
+    color: white;
+    position: relative;
+    left: 65vw;
+    top: -10vh;
+    width: 500px;
+}
+footer #para a{
+    color: white;
+}
